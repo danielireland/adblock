@@ -1,0 +1,39 @@
+[Adblock Plus 2.0]
+! Title: Google Sponsored Results Blocker
+! Description: Filters to remove sponsored/ad results from Google Search
+! Homepage: https://github.com/danielireland/adblock
+! Last modified: 2024-03-24
+! Version: 1.0
+! Expires: 4 days (update frequency)
+
+! Block sponsored results container
+google.*##div[data-text-ad]
+google.*##div[data-ad-client]
+google.*##.commercial-unit-desktop-top
+google.*##.commercial-unit-mobile-top
+google.*##div[aria-label="Ads"]
+google.*##div[id^="tads"]
+google.*##div[id^="tadsb"]
+google.*##.ads-ad
+google.*##.Rn1jbe
+google.*##div[data-ismultirow="true"][data-ved]:has(span:contains("Sponsored"))
+google.*##.uEierd
+
+! Block individual sponsored result elements
+google.*##div[data-text-ad="1"]
+google.*##.commercial-unit-desktop-rhs
+google.*##.rscontainer > .ellip[style="display: block;"]
+
+! Block sponsored shopping results
+google.*##.commercial-unit-desktop-collection
+google.*##.commercial-unit-mobile-collection
+google.*##div[jscontroller="LdB9sd"]
+google.*##div[class*="shopping-results"]:has(span:contains("Sponsored")) 
+
+! Block twitter side bar 
+x.com##.css-1750i2r.r-1pi2tsx.r-1wtj0ep.r-1rnoaur.r-1gymjhz.r-n7gxbd
+x.com##.css-1750i2r.r-Irvibr.r-1g40b8q.r-obd0qt.r-16y2uo
+
+! Block Gemini from google search results
+google.com##.hdzaWe
+google.co.uk##.hdzaWe
