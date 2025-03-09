@@ -49,10 +49,3 @@ google.*##.VqFMTc:has(span:contains("Sponsored"))
 google.*##.mnr-c:has(span:contains("Sponsored"))
 google.*##div[data-pcu]:has(span:contains("Sponsored"))
 google.*##.d8lLoc:has(span:contains("Sponsored"))
-
-! Block twitter side bar 
-x.com##.css-175oi2r.r-lrvibr.r-1g40b8q.r-obd0qt.r-16y2uox
-x.com##.css-175oi2r.r-1pi2tsx.r-1wtj0ep.r-1rnoaur.r-1gymjhz.r-n7gxbd
-
-! Block Gemini from google search results
-google.*##.hdzaWe
