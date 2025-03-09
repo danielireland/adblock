@@ -6,50 +6,6 @@
 ! Version: 1.1
 ! Expires: 4 days (update frequency)
 
-! Block sponsored results container
-google.*##div[data-text-ad]
-google.*##div[data-ad-client]
-google.*##.commercial-unit-desktop-top
-google.*##.commercial-unit-mobile-top
-google.*##div[aria-label="Ads"]
-google.*##div[id^="tads"]
-google.*##div[id^="tadsb"]
-google.*##.ads-ad
-google.*##.Rn1jbe
-google.*##div[data-ismultirow="true"][data-ved]:has(span:contains("Sponsored"))
-google.*##.uEierd
-
-! Block individual sponsored result elements
-google.*##div[data-text-ad="1"]
-google.*##.commercial-unit-desktop-rhs
-google.*##.rscontainer > .ellip[style="display: block;"]
-
-! Block sponsored shopping results
-google.*##.commercial-unit-desktop-collection
-google.*##.commercial-unit-mobile-collection
-google.*##div[jscontroller="LdB9sd"]
-google.*##div[class*="shopping-results"]:has(span:contains("Sponsored"))
-
-! Mobile-specific ad blocks
-google.*##div[role="complementary"]
-google.*##div[aria-label*="sponsored"]
-google.*##div[data-amp-ad]
-google.*##div[class*="mobileads"]
-google.*##div[class*="native-ad"]
-google.*##.ads-fr
-google.*##.U3A9Ac
-google.*##.v7W49e
-google.*##.MXl0lf
-google.*##div[jscontroller="K6HGfd"]
-google.*##div[jscontroller="GU4Gab"]
-google.*##.ptJHdc
-google.*##.CnP9N
-google.*##div[jsdata*="sponsored"]
-google.*##.VqFMTc:has(span:contains("Sponsored"))
-google.*##.mnr-c:has(span:contains("Sponsored"))
-google.*##div[data-pcu]:has(span:contains("Sponsored"))
-google.*##.d8lLoc:has(span:contains("Sponsored"))
-
 ! Block twitter side bar 
 x.com##.css-175oi2r.r-lrvibr.r-1g40b8q.r-obd0qt.r-16y2uox
 x.com##.css-175oi2r.r-1pi2tsx.r-1wtj0ep.r-1rnoaur.r-1gymjhz.r-n7gxbd
