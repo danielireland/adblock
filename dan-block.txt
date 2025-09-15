@@ -7,8 +7,7 @@
 ! Expires: 4 days (update frequency)
 
 ! Block twitter side bar 
-x.com##.css-175oi2r.r-lrvibr.r-1g40b8q.r-obd0qt.r-16y2uox
-x.com##.css-175oi2r.r-1pi2tsx.r-1wtj0ep.r-1rnoaur.r-1gymjhz.r-n7gxbd
+x.com##header [role="banner"] > div > div > div > div:has(nav[aria-label="Primary"])
 
 ! Block Gemini from google search results
 google.com##.hdzaWe
