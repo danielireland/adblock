@@ -7,7 +7,7 @@
 ! Expires: 4 days (update frequency)
 
 ! Block twitter side bar 
-x.com##div:has(> nav[aria-label="Primary"])
+x.com##div:has(nav[aria-label="Primary"])
 
 ! Block Gemini from google search results
 google.com##.hdzaWe
