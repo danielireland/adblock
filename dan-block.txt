@@ -10,6 +10,8 @@
 x.com##.css-175oi2r.r-lrvibr.r-1g40b8q.r-obd0qt.r-16y2uox
 x.com##.css-175oi2r.r-1pi2tsx.r-1wtj0ep.r-1rnoaur.r-1gymjhz.r-n7gxbd
 x.com##header [role="banner"] > div > div > div > div:has(nav[aria-label="Primary"])
+! Block X/Twitter bottom navigation bar on mobile
+x.com##div[data-testid="BottomBar"]
 
 ! Block Gemini from google search results
 google.com##.hdzaWe
@@ -21,3 +23,7 @@ www.google.*##[role="navigation"] [role="list"]>[role="listitem"]:has([href^="/s
 ! Hide Amazon app-install banner (top)
 amazon.co.uk##div#nav-app-banner-container
 amazon.co.uk##header#nav-main div#nav-app-banner-container
+
+
+! test 
+google.com##body { background-color: yellow !important; }
