@@ -23,7 +23,8 @@ www.google.*##[role="navigation"] [role="list"]>[role="listitem"]:has([href^="/s
 ! Hide Amazon app-install banner (top)
 amazon.co.uk##div#nav-app-banner-container
 amazon.co.uk##header#nav-main div#nav-app-banner-container
-
+amazon.co.uk##div#nav-app-banner-container
 
 ! test 
 google.com##body { background-color: yellow !important; }
+
