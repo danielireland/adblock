@@ -1,4 +1,4 @@
-[Adblock Plus 2.0]
+i[Adblock Plus 2.0]
 ! Title: Google Sponsored Results Blocker
 ! Description: Filters to remove sponsored/ad results from Google Search
 ! Homepage: https://github.com/danielireland/adblock
@@ -24,6 +24,8 @@ www.google.*##[role="navigation"] [role="list"]>[role="listitem"]:has([href^="/s
 amazon.co.uk##div#nav-app-banner-container
 amazon.co.uk##header#nav-main div#nav-app-banner-container
 amazon.co.uk##div#nav-app-banner-container
+amazon.*##header#nav-main div#nav-app-banner-container
+amazon.*##header#nav-main .nav-app-banner-elements
 
 ! test 
 google.com##body { background-color: yellow !important; }
