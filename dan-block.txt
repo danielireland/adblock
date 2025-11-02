@@ -24,6 +24,16 @@ www.google.*##[role="navigation"] [role="list"]>[role="listitem"]:has([href^="/s
 amazon.*##body *[id*="app-banner"]:style(display:none!important;)
 amazon.*##body *[class*="app-banner"]:style(display:none!important;)
 
+! === Amazon app banner block ===
+amazon.*##div[id^="nav-app-banner"]
+amazon.*##header#nav-main div[id^="nav-app-banner"]
+amazon.*##.nav-app-banner-elements
+amazon.*##[class*="app-banner"]
+amazon.*##[id^="nav-banner-app-icon-section"]
+amazon.*##+js(aopr, navAppBanner)
+amazon.*##+js(aopr, nav-app-banner-container)
+amazon.*##+js(aopr, appBanner)
+
 ! test 
 google.com##body { background-color: yellow !important; }
 
