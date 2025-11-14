@@ -20,4 +20,6 @@ google.co.uk##.hdzaWe
 ! block ai search from google
 www.google.*##[role="navigation"] [role="list"]>[role="listitem"]:has([href^="/search"][href*="&udm=50"])
 
-www.amazon.co.uk##div#nav-app-banner-container:style(display: none !important;)
+! 14 Nov 2025 https://www.amazon.co.uk
+www.amazon.co.uk##.nav-app-banner-elements
+www.amazon.co.uk###nav-app-banner-container
