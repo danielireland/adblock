@@ -21,4 +21,4 @@ google.co.uk##.hdzaWe
 www.google.*##[role="navigation"] [role="list"]>[role="listitem"]:has([href^="/search"][href*="&udm=50"])
 
 ! --- Kill the "Fast. Easy. Shop in our free App today" banner on Amazon UK mobile ---
-amazon.co.uk##header#nav-main > div#nav-app-banner-container:remove()
+amazon.co.uk##nav-app-banner-container
